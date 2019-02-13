@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.fontawesome.com/31e4b5bbb7.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/icons/youtube?style=brands">
+    <script src="https://use.fontawesome.com/31e4b5bbb7.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="icon" href="img/images.png" />
+</head>
+<style>
+    html {
+}
+  box-sizing: border-box!important;
+
+body {
+      font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav {
+  background: #d1cb36 !important;
+ }     
+
+.navbar-brand {
+   color: #1f1f1f!important;
+   font-size: 1.6em;
+   font-family: 'Handlee', cursive;
+   padding-top: 18px;
+ }
+
+#home .intro-header {
+    padding-top: 100px;
+    padding-bottom:50px;
+    text-align: center;
+    color: white;
+    height: 800px;
+    background-image: url('img/1.jpg');
+    background-size: cover;
+ }
+
+#home h1 {
+  margin-top: 90px;
+  }
+  
+#home hr {
+  width: 400px;
+  border-bottom: 1px solid rgba(113, 82, 0, 0.2);
+  border-top: 1px solid #f8f8f8;
+  max-width: 90%;
+}
+
+#home ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#home .social-media-buttons > li {
+  padding-top: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Handlee', cursive;
+}
+  .col-md-12{
+ 
+  font-weight: 100;
+  top: 70px;
+  position: absolute;
+  width:100%;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  animation: fadeUpIn 3s;
+  -webkit-animation: fadeUpIn 3s; /* Safari and Chrome */
+}
+
+@-webkit-keyframes fadeUpIn /* Safari and Chrome */
+{
+  from { opacity:0; top:150px; }
+  to { opacity:1; top: 70px; }
+}
+
+#home i {
+  font-size: 20px;
+}
+
+#home #github i {
+  font-size: 20px;
+  padding-right: 7px;
+  
+}
+#home li a {
+  padding-top: 13px;
+}
+#home #github {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#about {
+  padding-top:50px;
+  padding-bottom: 100px;
+  
+}
+
+#about h3 {
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+#about img {
+  margin-top: 40px;
+  height: 200px;
+  border: 6px solid #d1cb36;
+}
+
+#portfolio {
+  background: rgb(247, 247, 247);
+  font-family: 'Handlee', cursive;
+}
+
+
+#portfolio img {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+#portfolio h3 {
+  text-decoration: underline;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+#portfolio .portfolio-piece {
+  border: 1px solid white;
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 90%;
+}
+.portfolio-piece:hover{
+  transform: scale(1.1);
+}
+
+#contact {
+  background-color: #d1cb36;
+  /* background-color: rgb(162, 247, 101); */
+  
+}
+#contact p {
+  font-size: 14px;
+  padding-left: 40px;
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+
+#contact .social-media-buttons > li {
+  padding: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+}
+
+#contact ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact p i {
+  font-size: 18px;
+  color: #302f2f;
+  }
+
+#contact li i {
+  font-size: 40px;
+  color: #222222;
+}
+#contac li a:hover{
+  font-size: 50px;
+  color: white;
+ }
+
+#contact p a {
+  color: black;
+  padding-bottom: -2px;
+  margin-top: 15px;
+}
+
+#contact p span {
+  font-size: 18px;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+</style>
+<body>
+    <!--Navigation bar section starts here-->
+
+<nav class="navbar navbar-default navbar-fixed-top topnav navbar-custom" role="navigation">
+     <div class="container-fluid">
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Hamid Chaouqui</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+           <li class="header__line js-moving-line"></li>
+        </ul>
+       </div>
+     </div>
+  </nav>
+
+<!--Navigation bar section ends-->
+
+<!--Home section starts-->
+<section id="home">
+  <div class="intro-header">
+    <div class="container-fluid intro_header">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Welcome to My Portfolio Page</h1>
+          <hr />
+<!--          Social media buttons -->
+          <ul class="social-media-buttons text-center">
+            <li>
+              <a class="btn btn-default btn-lg" href="https://www.youtube.com/channel/UCBVuGc0ByMFchvc6-SmOwhQ" target="_blank" id="youtube"><i class="far fa-play-circle"></i>Youtube</a>
+            </li>
+            <li>
+              <a class="btn btn-default btn-lg" href="https://www.instagram.com/hamid_chaouqui/?hl=fr" target="_blank" id="github"> <i class="fa fa-instagram"></i>instagram</a>
+            </li>
+          </ul>
+<!--          Social media buttons end-->
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+<!--Home section ends here-->
+
+
+<!--About section starts-->
+<section id="about">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-description">
+          <h3>About me:</h3>
+          <p>salut , je suis chef  Hamid Chaouqui, fort d'une expérience de dix ans acquises aux fourneaux d'un
+            restaurant  gastronomique,  je  maîtrise  parfaitement  la  technique  pour  réaliser  des  plats
+            complexes  et  suis  tout  à  fait  à  même  de  créer  de  nouvelles  recettes.  Gardant  toujours
+            comme  objectif  le  plaisir  gustatif  de  ma  clientèle,  mes  qualités  d'encadrement  et  de
+            gestionnaire ne sont pas moins importantes.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+      <img src="img/2.jpg" class="img-responsive img-circle center-block" alt="sofa-and-computer"/>
+      </div>
+    </div>
+  </div>
+</section>
+<!--About section ends-->
+<!--Portfolio section starts-->
+<section id="portfolio">
+  <div class="container-fluid">
+    <!--Porfolio header-->
+    <div class="row">
+      <div class="col-md-12">
+<!--        <h3 class="portfolio-header">My Portfolio:</h3>-->
+      </div>
+    </div>
+    <!--Porfolio header ends-->
+    <!--Portfolio content starts-->
+    
+    <div class="row">
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">Soupe</h4>
+          <h5 class="text-center">soupe au lentilles corail</h5>
+            <a href="https://www.youtube.com/watch?v=VpLbAUXCDVo"><img src="img/first.png" class="img-responsive img-thumbnail" alt="Placeholder"/></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">aile de poulet</h4>
+          <h5 class="text-center">ailes de poulet frites</h5>
+            <a href="https://www.youtube.com/watch?v=MvK0UfUr7O8"><img src="img/ail.jpg" class="img-responsive img-thumbnail" alt="Placeholder"/></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">salade d'aubergine</h4>
+          <h5 class="text-center">Project description</h5>
+            <a href="https://www.youtube.com/watch?v=H7bHFGdYkkg&t=1s"><img src="img/aubergine.jpg" class="img-responsive img-thumbnail" alt="Placeholder"/></a>
+        </div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">Project #4</h4>
+          <h5 class="text-center">Project description</h5>
+          <img src="img/site-web-en-construction.jpg" class="img-responsive img-thumbnail" alt="Placeholder"/>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">Project #5</h4>
+          <h5 class="text-center">Project description</h5>
+          <img src="img/site-web-en-construction.jpg" class="img-responsive img-thumbnail" alt="Placeholder"/>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-piece">
+          <h4 class="text-center"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span></h4>
+          <h4 class="text-center">Project #6</h4>
+          <h5 class="text-center">Project description</h5>
+          <img src="img/site-web-en-construction.jpg" class="img-responsive img-thumbnail" alt="Placeholder"/>
+        </div>
+      </div>
+    </div>
+  <!--Portfolio content ends-->   
+  </div>
+</section>
+<!--Portfolio section ends -->
+
+
+<!--Contact section starts-->
+<section id="contact">
+  <div class="container-fluid">
+    <!--<h3>Contact:</h3>-->
+    <p class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:fatima28mesdour@gmail.com" id="mail">fatima28mesdour@gmail.com</a></p>
+    <ul class="social-media-buttons text-center">
+        <li><a href="https://www.facebook.com/hamid.chaouqui" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <!--<li><a class="btn btn-default btn-sm" href="#"> <i class="fa fa-fire"></i> freeCodeCamp</a></li>-->
+        <li><a href="https://www.youtube.com/channel/UCBVuGc0ByMFchvc6-SmOwhQ" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </div>
+  <footer>Site developed by mesdour fatima, 2018 </footer>
+</section>
+<!--Contact section ends-->
+</body>
+</html>
